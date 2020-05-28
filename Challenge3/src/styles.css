@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-color:#C63503;
+  padding: 10px 5px 20px 5px;
+  border-radius: 15px;
+  color: white;
+}
+.container {
+  text-align: left;
+  padding: 20px 0px 0px 0px;
+  color: black;
+}
+input {
+  margin: 0px;
+  width: 95%;
+  border-radius: 5px 0px 0px 5px;
+  border:1px solid #D5D5D5;
+  height:30px;
+}
+button {
+  border-style: solid;
+  border-radius: 0px 5px 5px 0px;
+  width: 4%;
+  margin: 0px;
+  height:34px;
+}
+ul {
+  list-style: none;
+  padding: 0px 10px 0px 0px;
+}
+li {
+  border: 1px solid #D5D5D5;
+  border-radius: 5px;
+  background-color: white;
+  width:100%;
+  padding:5px;
+  margin: 0px 0px 1px 0px;
+}
+li button{
+  float: right;
+  border-style: solid;
+  border-radius: 180px;
+  height:25px;
+}
+
+
