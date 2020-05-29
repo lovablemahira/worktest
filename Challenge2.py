@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# How to run: Windows| Type "python Challenge2.py" in the command prompt (assuming python is installed)
+# How to run: Windows| Type "python Challenge2.py" in the command prompt (assuming python and libraries are installed)
 # This program takes in json data, converts it into an array and list, and smoothes it
 # I chose a conventional smoothing method given the type of data and its values
 
