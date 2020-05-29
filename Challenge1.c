@@ -2,7 +2,9 @@
 #include <math.h>
 
 /*
-To run: Since this is a simple program, I'd recommend copying and pasting this code into https://www.onlinegdb.com/
+To run: Windows| If everything is installed correctly and the paths are set, then
+type "gcc Challenge1.c", then type "gcc -o Challenge1 Challenge1.c", finally type
+"Challenge1" and it should run
 
 This program aquires a linear distance via the user input. It then takes that
 distance and determines the angle of the wheel by calling the "linearDistX" and
