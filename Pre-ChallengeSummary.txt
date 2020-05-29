@@ -1,0 +1,2 @@
+In the future, I would make the styling better. I would give the app more functionality such as adding dates.
+I would also customize the effects and ensure that the user experience is great overall.
