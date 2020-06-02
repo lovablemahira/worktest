@@ -19,8 +19,10 @@ float findSteeringAngle(float linearDistX) {
     float theta;
     
     //--Code--
-    //cos(0)=adj/hyp
-    theta = acos((linearDistX / 5.0)) - (M_PI / 4); //-45 to 45 degrees
+    // (7,3)x
+    //      | \ y = (7/3)x
+    //      |___\ <-(0,0)
+    theta = acos((linearDistX / 5.0)) - (M_PI / 2); //-45 to 45 degrees
     
     return theta;
 }
