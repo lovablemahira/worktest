@@ -24,7 +24,9 @@ float findSteeringAngle(float linearDistX) {
     //      |___\ <-(0,0)
     // Slope changes when x does
     // Find the new slope by figuring out its relationship with the sides
-    // x = sqrt(58) - 5 in th beginning
+    // x = sqrt(58) - 5 in the beginning
+    // Turning right makes y shorter and x longer, turning left makes y longer and x shorter
+    // linearDistX - (sqrt(58) - 5) <- Represents length with repect to the original: returns positive if longer and negative if shorter
     theta = acos((linearDistX / 5.0)) - (M_PI / 2); //-45 to 45 degrees
     
     return theta;
